@@ -1,0 +1,16 @@
+.image{
+    /* margin-left: 50%;
+    margin-top: -20%;
+    
+    display: grid; */
+    
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    float: right;
+}
+
+.about p{
+    overflow: auto;
+    margin-right: 50%;
+}
