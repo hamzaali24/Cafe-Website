@@ -1,26 +1,28 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>The Cafe</title>
-
     <link rel="shortcut icon" type="image/x-icon" href="/images/icon.png">
-    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/styles/styleform.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+
+    <title>Contact Us - The Cafe</title>
 </head>
 
 <body>
-
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <span>Restaurant Logo</span>
@@ -28,7 +30,7 @@
             </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
@@ -40,7 +42,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="ourservices.html">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -48,26 +50,31 @@
         </div>
     </nav>
 
-    <!-- first section -->
-    <section class="start">
-
-        <div class="image-container">
-            <img class="img" alt="Restaurant Image" src="/images/cafe.jpg" width="100%" height="auto">
-            <div class="center">Welcome to our Service page</div>
+    <!-- form  -->
+    <form class="form-horizontal text-center w-50 mx-auto ">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">First Name</label>
+                <input type="text" class="form-control" id="fname" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Last Name</label>
+                <input type="text" class="form-control" id="lname" required>
+            </div>
         </div>
-
-
-    </section>
-    <!-- timing section -->
-    <section class="timing">
-        <h3>Serving Coffee everyday to everyone.</h3>
-        <p>Panorama Hills <br> 12 Street NW, Calgary, AB <br> Monday-Friday: 7am-5pm <br> Saturday-Sunday: 9am-9pm</p>
-        <p>Downtown<br> 89 Street SE, Calgary, AB <br> Monday-Friday: 7am-7pm <br> Saturday-Sunday: 8am-10pm</p>
-
-    </section>
+        <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea type="message" rows="5" class="form-control" id="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark btn-lg">SEND</button>
+    </form>
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start text-white " style="background-color: rgb(240, 126, 12)">
+    <footer class="text-center text-lg-start text-white" style="background-color: rgb(240, 126, 12)">
         <!-- Grid container -->
         <div class="container p-3 pb-0">
             <!--Grid row-->
