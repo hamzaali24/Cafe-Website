@@ -57,6 +57,14 @@ body {
   margin-bottom: 20px;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 /* Style for the link elements */
 .footer a {
   color: #fff;

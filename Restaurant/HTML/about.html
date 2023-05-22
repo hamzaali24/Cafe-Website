@@ -14,6 +14,13 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Can comment out this style only used to view border to get an understanding -->
+  <style>
+    * {
+      border: 1px solid black; 
+    }
+  </style>
+  
 </head>
 
 <body>
@@ -49,7 +56,7 @@
   <!-- about us -->
   <section class="about-section">
     <!-- <div class="about"> -->
-    <p class="about-paragraph">
+    <p class="about-paragraph p-5" style="width: 120%;">
       It is a long established fact that a reader will be distracted by the readable
       content of a page when looking at its layout. The point of using Lorem Ipsum is
       that it has a more-or-less normal distribution of letters, as opposed to using
@@ -59,8 +66,8 @@
       Various versions have evolved over the years, sometimes by accident, sometimes on purpose
       (injected humour and the like).
     </p><br>
-    <img class="image1" src="/images/coffee-pic.jpg" width="500px" height="auto">
-    <img class="image2" src="/images/cafe.jpg" width="500px" height="auto">
+    <img class="image1" src="/images/coffee-pic.jpg"  width="500px" height="auto">
+    <img class="image2" src="/images/cafe.jpg"  width="500px" height="auto">
     <!-- </div> -->
 
     <div class="about-owner">
@@ -73,11 +80,11 @@
   <!-- Footer -->
   <footer class="text-center text-lg-start text-white fixed-bottom" style="background-color: rgb(240, 126, 12)">
     <!-- Grid container -->
-    <div class="container p-3 pb-0">
+    <div class="container p-1 pb-0" style="height: 150px;" >
       <!--Grid row-->
-      <div class="row">
+      <div class="row " style="width: max-content;">
         <!-- Grid column -->
-        <div class="col-md-4 mx-auto mt-3">
+        <div class="col-md-4 mx-auto mt-3 text-left" >
           <h6 class="text-uppercase mb-4 font-weight-bold">The Cafe</h6>
           <p>
             The Cafe is a cozy and inviting space where customers can enjoy a wide variety of delicious
@@ -85,7 +92,7 @@
           </p>
         </div>
         <!-- Grid column -->
-        <div class="col-md-4 mx-auto mt-3">
+        <div class="col-md-4 mx-auto mt-3 text-left">
           <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
           <p><i class="fas fa-home mr-3"></i> Panorama Hills, Calgary, AB</p>
           <p><i class="fas fa-envelope mr-3"></i> thecafe@gmail.com</p>
@@ -94,7 +101,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-4 mx-auto mt-3">
+        <div class="col-md-4 mx-auto mt-3 text-left">
           <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
 
           <!-- Facebook -->
